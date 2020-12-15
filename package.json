@@ -1,0 +1,27 @@
+{
+  "name": "json2csv",
+  "version": "1.0.0",
+  "description": "Parses JSON into CSV",
+  "main": "build/index.js",
+  "scripts": {
+    "start": "node build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "gts lint",
+    "clean": "gts clean",
+    "compile": "tsc",
+    "fix": "gts fix",
+    "prepare": "npm run compile",
+    "pretest": "npm run compile",
+    "posttest": "npm run lint"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gts": "^3.0.3"
+  },
+  "devDependencies": {
+    "gts": "^3.0.3",
+    "typescript": "^4.0.3",
+    "@types/node": "^14.11.2"
+  }
+}

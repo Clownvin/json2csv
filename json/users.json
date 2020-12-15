@@ -1,0 +1,47 @@
+[
+  {
+    "age": 32,
+    "name": {
+      "first": "Bob",
+      "last": "Smith"
+    },
+    "matrix": [
+      [1, 2, 3],
+      [4, 5, 6],
+      [7, 8, 9]
+    ]
+  },
+  {
+    "age": 54,
+    "name": {
+      "first": "Susan",
+      "last": "Doe",
+      "intitials": [["c"], ["g"], ["h"]]
+    },
+    "siblings": [
+      {
+        "age": 32,
+        "name": {
+          "first": "Bob",
+          "last": "Smith"
+        },
+        "luckyNumbers": [1, 7, 9, 36]
+      },
+      {
+        "age": 18,
+        "name": {
+          "first": "Ann",
+          "last": "Jones"
+        },
+        "unluckyNumbers": [0, -1, 42, 69]
+      }
+    ]
+  },
+  {
+    "age": 18,
+    "name": {
+      "first": "Ann",
+      "last": "Jones"
+    }
+  }
+]
